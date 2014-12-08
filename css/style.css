@@ -81,6 +81,14 @@ h2 {
     transition: transform 0.2s;
 }
 
+.feed-container {
+	display: block;
+}
+
+.feed-container.hidden {
+	display: none;
+}
+
 .feed {
     margin: 4em 0 0;
 }
